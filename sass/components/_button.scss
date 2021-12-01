@@ -30,6 +30,19 @@
   &--white {
     background-color: $color-white;
     color: $color-grey-dark;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
   }
 
   /* when doing an ::after selector, we must always input content and display first (even if its just "") */
@@ -44,7 +57,7 @@
     left: 0;
     z-index: -1;
     transition: all 0.4s;
-    background-color: $color-white;
+    background-color: inherit;
   }
 
   &--animated {
