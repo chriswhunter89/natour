@@ -38,7 +38,7 @@
             <a href="" class="navigation__link"><span>04</span>Stories</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link"><span>05</span>Book Now</a>
+            <a href="#popup" class="navigation__link"><span>05</span>Book Now</a>
           </li>
         </ul>
       </nav>
@@ -67,7 +67,7 @@
 
           <div class="row">
             <div class="col-1-of-2">
-              <h3 class="heading-tertiary u-margin-bottom-small">You're going to fal in love with nature</h3>
+              <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
               <p class="paragraph">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, minus temporibus tempora
                 nesciunt rerum at laudantium. Laudantium architecto vitae distinctio voluptatum dolore omnis
@@ -147,7 +147,7 @@
           </div>
         </section>
 
-        <section class="section-tours">
+        <section class="section-tours" id="section-tours">
           <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">Most popular tours</h2>
           </div>
@@ -176,7 +176,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">£297</p>
                     </div>
-                    <a href="#" class="btn btn--white">Book now</a>
+                    <a href="#popup" class="btn btn--white">Book now</a>
                   </div>
                 </div>
               </div>
@@ -204,7 +204,7 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">£497</p>
                     </div>
-                    <a href="#" class="btn btn--white">Book now</a>
+                    <a href="#popup" class="btn btn--white">Book now</a>
                   </div>
                 </div>
               </div>
@@ -232,14 +232,14 @@
                       <p class="card__price-only">Only</p>
                       <p class="card__price-value">£897</p>
                     </div>
-                    <a href="#" class="btn btn--white">Book now</a>
+                    <a href="#popup" class="btn btn--white">Book now</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="u-center-text u-margin-top-huge">
-            <a href="#" class="btn btn--green">Discover all tours</a>
+            <a href="#section-tours" class="btn btn--green">Discover all tours</a>
           </div>
         </section>
 
@@ -369,6 +369,32 @@
           </div>
         </div>
       </footer>
+
+      <div class="popup" id="popup">
+        <div class="popup__content">
+          <div class="popup__left">
+            <img class="popup__image" src="./img/nat-8.jpg" alt="person on a tour" />
+            <img class="popup__image" src="./img/nat-9.jpg" alt="person on a tour" />
+          </div>
+          <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-medium">Start booking now</h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Important &ndash; Please read these terms before booking
+            </h3>
+            <p class="popup__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, minus temporibus tempora
+              nesciunt rerum at laudantium. Laudantium architecto vitae distinctio voluptatum dolore omnis
+              cum, accusamu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
+            <a href="#popup" class="btn btn--green">Book now</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--
