@@ -1,3 +1,18 @@
+/*
+0 - 600px :     Phone
+600 - 900px :   Tablet Portrait
+900 - 1200px :  Tablet Landscape
+1200 - 1800px : Standard Desktop *This is where our normal styles apply*
+1800px + :      Big Desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px (must use em as rem fail to work as intended in some browsers. em's are best for media queries)
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -38,6 +53,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
